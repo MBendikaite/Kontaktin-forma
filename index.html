@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktinė forma</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+
+        body{
+            background-color: rgb(241, 239, 239);
+        
+
+        }
+.container{
+    margin: 50px;
+    padding-right: 50px;
+    
+}
+
+        .container .contact-box{
+        margin: 50px 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+
+        }
+        .contact-left{
+            width: 20%;
+            text-align: justify;
+            padding: 20px;
+            background-color: rgb(57, 189, 116); 
+
+        }
+
+        .contact-right{
+            width: 400px;
+           padding: 20px;
+           background-color: white;
+         
+        }
+
+    .contact-info{
+        display: block;
+        margin-top: 0;
+        color: white;
+    
+    }
+
+    h2{
+        margin: 0;
+    }
+
+    .input-row{
+      align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        font-size: 11px;
+        font-weight: bold;
+      
+    }
+
+    .devider{
+        margin-top: 1rem;
+        font-size: 11px;
+        font-weight: bold;
+    
+      
+    }
+    .devider input{
+   width: 400px;
+    border-color: lightgray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+   
+}
+
+    label{
+        display: flex;
+        margin-bottom: 1rem;
+
+    }
+
+    .input-group-1 input{
+    padding-right: 50px;
+    border-color: lightgray;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    }
+
+    .input-group-2 input{
+    border-color: lightgray;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    }
+
+
+    .btn{
+     width: 96%;
+     margin: 50px;
+    margin-left: 0;
+    border: none;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+
+    
+    }
+
+    .btn button{
+        width: 30%;
+        padding: 10px;
+        border: none;
+        border-top:2px grey;
+        color: white;
+        background-color: rgb(57, 189, 116);
+        border-radius: 5px 5px 5px 5px;
+    }
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="contact-box">
+        <div class="contact-left">
+<h2 style="color: white; font-weight:7;">Let's get in touch</h2>
+<br>
+    <div class="contact-info">
+        <p>We're open for any suggestion or just to have a chat</p>
+    </div>
+
+        <div style=" color:white"><i class="fa fa-map-marker fa-fw" style="width: 2em; text-align: left; color: white; font-size: 20px;"></i> Address: 198 West 21th Street, Suite 721 New Yourk Ny</div>
+        <div style="text-align: left;  color:white"><i class="fa fa-phone fa-fw" style="width: 2em; text-align: left; color: white; margin-top: 2rem; font-size: 20px; "></i> Phone: + 1235 2355 98</div> 
+        <div style="text-align: left;  color:white" ><i class="fa fa-paper-plane fa-fw" style=" text-align: left; color: white; font-size: 20px; margin-top: 2rem; "></i> Email: info@yoursite.com</div>
+        <div style="text-align: left;  color:white"><i class="fa fa fa-globe fa-fw" style=" width: 2em; text-align: left; color: white; font-size: 20px; margin-top: 2rem;"></i> Website yoursite.com </div>
+    
+        </div>
+        <div class="contact-right">
+            <h2 style="font-weight:lighter">Get in touch</h2>
+<form>
+
+    <div class="input-row"> 
+        
+        <div class="input-group-1">
+            <label >FULL NAME</label>
+            <input type="text" placeholder="Name">
+        </div>
+        
+            <div class="input-group-2">
+                <label>EMAIL ADDRESS</label>
+                <input type="text" placeholder="Email">
+            </div>
+        </div>
+            
+            <div class="devider">
+                <label>SUBJECT</label>
+                <input type="text" placeholder="Subject">
+            </div>
+            <div class="devider">
+                <label>MESSAGE</label>
+                <input type="text" placeholder="Message" >
+                
+            </div>
+         
+        
+<div class="btn">
+    <button type="submit">Send Message</button>
+</div>
+
+
+        </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
