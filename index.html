@@ -13,14 +13,10 @@
         
 
         }
-.container{
-    margin: 50px;
-    padding-right: 50px;
-    
-}
+
 
         .container .contact-box{
-        margin: 50px 40px;
+        margin-top:20px;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -28,15 +24,15 @@
 
         }
         .contact-left{
-            width: 20%;
+            width: 18%;
             text-align: justify;
-            padding: 20px;
+            padding-bottom:50px;
+            padding:30px;
             background-color: rgb(57, 189, 116); 
 
         }
 
         .contact-right{
-            width: 400px;
            padding: 20px;
            background-color: white;
          
@@ -45,7 +41,7 @@
     .contact-info{
         display: block;
         margin-top: 0;
-        color: white;
+        color:  whitesmoke;
     
     }
 
@@ -71,11 +67,10 @@
       
     }
     .devider input{
-   width: 400px;
-    border-color: lightgray;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    width: 400px;
+    border:none;
+    border-bottom:1px solid;
+    border-color: rgb(230, 222, 222);
    
 }
 
@@ -87,26 +82,25 @@
 
     .input-group-1 input{
     padding-right: 50px;
-    border-color: lightgray;
-    border-top: none;
-    border-left: none;
-    border-right: none; 
+    border-color: rgb(230, 222, 222);
+    border:none;
+    border-bottom:1px solid;
+    border-color: rgb(230, 222, 222);
     }
 
     .input-group-2 input{
-    border-color: lightgray;
-    border-top: none;
-    border-left: none;
-    border-right: none; 
+    border-color: rgb(230, 222, 222);
+    border:none;
+    border-bottom:1px solid;
+    border-color: rgb(230, 222, 222);
     }
 
 
     .btn{
      width: 96%;
-     margin: 50px;
+     margin: 10px;
     margin-left: 0;
     border: none;
-    border-top: 2px solid rgba(0, 0, 0, 0.1);
     padding: 10px;
 
     
@@ -117,9 +111,40 @@
         padding: 10px;
         border: none;
         border-top:2px grey;
-        color: white;
+        color:  whitesmoke;
         background-color: rgb(57, 189, 116);
         border-radius: 5px 5px 5px 5px;
+    }
+
+    .message textarea{
+        height:120px;
+        width: 400px;
+        border: none;
+        border-bottom:1px solid;
+        color: rgb(230, 222, 222);
+    }
+
+    .fa{
+        margin-top:10px;
+        color: whitesmoke;
+        position:absolute;
+        padding: 8px;
+        display: inline-block;
+        border:1px solid;
+        font-size: 15px;
+        border-radius: 50%;
+        
+  
+    }
+    .contact-style{
+        color: whitesmoke;
+        line-height: 1.6;
+        margin-left:30px;
+        padding: 15px;
+        text-align: justify;
+        padding-left:24px;
+
+        
     }
 
 
@@ -129,16 +154,16 @@
 <div class="container">
     <div class="contact-box">
         <div class="contact-left">
-<h2 style="color: white; font-weight:7;">Let's get in touch</h2>
+<h2 style=" color: whitesmoke; font-weight:7;">Let's get in touch</h2>
 <br>
     <div class="contact-info">
         <p>We're open for any suggestion or just to have a chat</p>
     </div>
 
-        <div style=" color:white"><i class="fa fa-map-marker fa-fw" style="width: 2em; text-align: left; color: white; font-size: 20px;"></i> Address: 198 West 21th Street, Suite 721 New Yourk Ny</div>
-        <div style="text-align: left;  color:white"><i class="fa fa-phone fa-fw" style="width: 2em; text-align: left; color: white; margin-top: 2rem; font-size: 20px; "></i> Phone: + 1235 2355 98</div> 
-        <div style="text-align: left;  color:white" ><i class="fa fa-paper-plane fa-fw" style=" text-align: left; color: white; font-size: 20px; margin-top: 2rem; "></i> Email: info@yoursite.com</div>
-        <div style="text-align: left;  color:white"><i class="fa fa fa-globe fa-fw" style=" width: 2em; text-align: left; color: white; font-size: 20px; margin-top: 2rem;"></i> Website yoursite.com </div>
+        <div><i class="fa fa-map-marker fa-fw"></div><div class="contact-style"></i> Address: 198 West 21th Street, Suite 721 New Yourk Ny</div>
+        <div><i class="fa fa-phone fa-fw"></div><div class="contact-style"></i> Phone: + 1235 2355 98</div> 
+        <div><i class="fa fa-paper-plane fa-fw"></div><div class="contact-style"></i> Email: info@yoursite.com</div>
+        <div><i class="fa fa fa-globe fa-fw"></div><div class="contact-style"></i>Website yoursite.com </div>
     
         </div>
         <div class="contact-right">
@@ -162,10 +187,11 @@
                 <label>SUBJECT</label>
                 <input type="text" placeholder="Subject">
             </div>
+            <div class="message">
             <div class="devider">
                 <label>MESSAGE</label>
                 <textarea placeholder="Message"></textarea>
-                
+            </div>
             </div>
          
         
